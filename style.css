@@ -1,0 +1,35 @@
+#game-container {
+            width: 400px;
+            height: 400px;
+            border: 2px solid #00285E;
+            border-radius: 20px;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+#player {
+            width: 50px;
+            height: 50px;
+            background-image: url('/Microsoft-Fluentui-Emoji-3d-Mouth-3d.512.png');
+            background-size: cover;
+            position: absolute;
+        }
+.tablet {
+            width: 25px;
+            height: 25px;
+            position: absolute;
+            background-image: url('/Microsoft-Fluentui-Emoji-3d-Drop-Of-Blood-3d.512.png');
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        
+body {
+  text-align: center;
+  font-family: 'poppins';
+}
+
+h1 {
+  color: #00285E;
+  font-size: 40px;
+}
